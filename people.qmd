@@ -5,19 +5,13 @@ listing:
     contents: "people/*.qmd"
     include:
       group: "PI"
-    type: grid
-    grid-columns: 3
-    image-height: 260px
-    fields: [image, title, subtitle]
+    template: people.ejs
   - id: phd
     contents: "people/*.qmd"
     include:
       group: "PhD"
     sort: "title"
-    type: grid
-    grid-columns: 3
-    image-height: 260px
-    fields: [image, title, subtitle]
+    template: people.ejs
 ---
 
 ::: {#pi}

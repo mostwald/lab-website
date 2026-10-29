@@ -95,3 +95,49 @@ button:focus-visible {
   outline: 2px solid var(--lab-hot);
   outline-offset: 2px;
 }
+
+/* Research page: photo beside each section */
+.research-photo {
+  float: right;
+  width: min(40%, 22rem);
+  margin: 0.3rem 0 1rem 1.75rem;
+}
+.research-photo figure { margin: 0; }
+.research-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+.research-photo figcaption {
+  font-size: 0.85rem;
+  font-style: italic;
+  margin-top: 0.4rem;
+}
+main.content h2 { clear: both; }
+@media (max-width: 640px) {
+  .research-photo { float: none; width: 100%; margin: 0 0 1.25rem; }
+}
+
+/* People page: photo beside a short bio */
+.person {
+  display: flex;
+  gap: 1.75rem;
+  align-items: flex-start;
+  margin: 0 0 2.25rem;
+}
+.person-photo { flex: 0 0 160px; }
+.person-photo img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.person-text { max-width: 40rem; }
+.person-name { margin: 0.4rem 0 0.15rem; font-size: 1.35rem; border-bottom: none; }
+.person-name a { color: inherit; text-decoration: none; }
+.person-name a:hover { text-decoration: underline; }
+.person-role { margin: 0 0 0.6rem; color: var(--lab-muted); font-style: italic; }
+.person-bio p { margin: 0 0 0.5rem; }
+@media (max-width: 560px) {
+  .person { flex-direction: column; gap: 0.75rem; }
+}

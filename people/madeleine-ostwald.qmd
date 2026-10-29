@@ -9,15 +9,15 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:YOUR-EMAIL@qmul.ac.uk
+      href: mailto:mostwald@qmul.ac.uk
     - text: ORCID
-      href: https://orcid.org/0000-0000-0000-0000
+      href: https://orcid.org/0000-0002-9869-8835
     - icon: mortarboard
       text: Google Scholar
-      href: https://scholar.google.com/
+      href: https://scholar.google.com/citations?user=fjwJPd4AAAAJ&hl=en
     - icon: github
       text: GitHub
-      href: https://github.com/YOUR-GITHUB-USERNAME
+      href: https://github.com/mostwald
 ---
 
 Madeleine is a lecturer at Queen Mary University of London and a member of the Centre for Biodiversity and Sustainability. She studies the behavioural, physiological and computational ecology of wild bees, with a focus on how they respond to climate change.

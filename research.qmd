@@ -5,8 +5,14 @@ description: "Thermal physiology, behaviour and macroecology of wild bees"
 
 We work on wild bees at two very different scales. In the field, we measure how individual bees experience and respond to heat. In collections, we use specimens and images to track how bee traits vary across space and time. Both lead back to the same question: how will wild bees fare as the climate warms?
 
+
 ## In the field {#field}
 
+::: {.research-photo}
+![](images/field.jpg)
+:::
+
+Most bee species nest in the ground...
 Most bee species nest in the ground, and their lives are shaped by temperature at every stage, from the soil around the nest to the air they forage in. We study their thermal physiology and behaviour directly in the field.
 
 Questions we are asking:
@@ -29,6 +35,10 @@ Our methods include field thermal tolerance assays, behavioural observation, mic
 
 ## In the collections {#collections}
 
+::: {.research-photo}
+![](images/field.jpg)
+:::
+
 Natural history collections hold millions of bee specimens, and digitisation is turning them into images that can be analysed at scale. We develop computational pipelines to extract morphological traits from these images and link them to climate.
 
 Questions we are asking:
@@ -43,9 +53,4 @@ Our methods include geometric morphometrics, deep learning for trait extraction,
 {{< video images/clip.mp4 >}}
 -->
 
-## Funding
 
-<!-- List funders and grants, e.g. "BBSRC New Investigator Award (BB/XXXXX/1)". Funder logos can go in images/. -->
-Our research is supported by:
-
-- Funder and grant reference

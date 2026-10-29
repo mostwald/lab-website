@@ -1,0 +1,14 @@
+<% for (const item of items) { %>
+<div class="person">
+  <% if (item.image) { %>
+  <a href="<%- item.path %>" class="person-photo">
+    <img src="<%- item.image %>" alt="Photo of <%= item.title %>">
+  </a>
+  <% } %>
+  <div class="person-text">
+    <h3 class="person-name"><a href="<%- item.path %>"><%= item.title %></a></h3>
+    <% if (item.subtitle) { %><p class="person-role"><%= item.subtitle %></p><% } %>
+    <% if (item.description) { %><div class="person-bio"><%- item.description %></div><% } %>
+  </div>
+</div>
+<% } %>

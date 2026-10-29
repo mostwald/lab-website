@@ -3,9 +3,14 @@ title: "Publications"
 bibliography: references.bib
 nocite: |
   @*
+# Surnames to show in bold (add lab members as they publish)
+bold-authors: [Ostwald]
+citeproc: false
+filters:
+  - publications.lua
 ---
 
-For the most up-to-date list, see [Google Scholar](https://scholar.google.com/) or [ORCID](https://orcid.org/0000-0000-0000-0000).
+See also my [Google Scholar profile](https://scholar.google.com/citations?user=fjwJPd4AAAAJ&hl=en).
 
 ::: {#refs}
 :::
