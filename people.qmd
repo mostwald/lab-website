@@ -20,16 +20,6 @@ listing:
     fields: [image, title, subtitle]
 ---
 
-<!--
-To add a group (e.g. postdocs, undergraduates, alumni):
-1. Copy one of the listings above in the YAML, give it a new id and group name.
-2. Add a matching heading and ::: {#new-id} ::: block below.
-3. Set `group:` to that name in each person's file.
-Only add a section once someone is in it, otherwise it shows "No matching items".
--->
-
-## Principal investigator
-
 ::: {#pi}
 :::
 
@@ -37,3 +27,8 @@ Only add a section once someone is in it, otherwise it shows "No matching items"
 
 ::: {#phd}
 :::
+
+## Lab alumni
+
+<!-- One line per person, most recent first. Copy and edit the example line. -->
+- **Name Surname**, MSc student (2025–2026). Now: role, institution.
