@@ -1,0 +1,8 @@
+---
+title: "A new home for the lab"
+date: 2026-10-29
+description: "Our lab website is live."
+categories: [lab news]
+---
+
+Welcome to the new lab website. Here you'll find our research, people, publications and open positions. We'll post news about papers, fieldwork and talks here.

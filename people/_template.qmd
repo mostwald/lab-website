@@ -1,0 +1,19 @@
+---
+# Copy this file, rename it to your-name.qmd, and fill it in.
+# Files starting with an underscore are not published.
+title: "Your Name"
+subtitle: "PhD student (2026–)"
+group: "template"   # change to: PI, PhD, or another group listed on people.qmd
+image: ../images/your-name.jpg   # square photo, at least 600px, under 300 KB
+about:
+  template: trestles
+  image-shape: round
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:you@qmul.ac.uk
+    - text: ORCID
+      href: https://orcid.org/0000-0000-0000-0000
+---
+
+Two or three sentences about your project, written for a general reader. Mention your supervisors and funder if you like.

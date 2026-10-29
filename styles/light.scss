@@ -1,0 +1,27 @@
+/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap');
+
+$font-family-sans-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+$headings-font-family: "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
+$headings-font-weight: 600;
+$line-height-base: 1.65;
+
+$body-bg: #FCFCFA;
+$body-color: #2A2320;
+$primary: #4E2A84;
+$link-color: #4E2A84;
+$navbar-bg: #FCFCFA;
+$navbar-fg: #2A2320;
+$navbar-hl: #4E2A84;
+$footer-bg: #F1F2F4;
+$footer-fg: #5A514C;
+
+/*-- scss:rules --*/
+:root {
+  --lab-muted: #6B605A;
+  --lab-surface: #F1F2F4;
+  --lab-cool: #3B1C6E;
+  --lab-hot: #D9531E;
+  /* Thermal-camera palette: the site's one bold element */
+  --lab-thermal: linear-gradient(90deg, #1E0B3B 0%, #5A1D7A 25%, #B23A6F 50%, #E8682A 75%, #F6C445 100%);
+}

@@ -1,0 +1,25 @@
+---
+title: "Madeleine Ostwald"
+subtitle: "Principal investigator"
+group: "PI"
+image: ../images/person-placeholder.svg
+about:
+  template: trestles
+  image-shape: round
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:YOUR-EMAIL@qmul.ac.uk
+    - text: ORCID
+      href: https://orcid.org/0000-0000-0000-0000
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.com/
+    - icon: github
+      text: GitHub
+      href: https://github.com/YOUR-GITHUB-USERNAME
+---
+
+Madeleine is a lecturer at Queen Mary University of London and a member of the Centre for Biodiversity and Sustainability. She studies the behavioural, physiological and computational ecology of wild bees, with a focus on how they respond to climate change.
+
+Her work combines field thermal physiology and behavioural ecology of ground-nesting bees with specimen- and image-based macroecology. Before starting her lab, she spent three years as a postdoc in specimen digitisation, developing deep learning pipelines and geometric morphometric approaches for extracting traits from museum specimens.

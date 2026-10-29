@@ -1,0 +1,33 @@
+---
+title: "Contact"
+description: "Get in touch and opportunities to join the lab"
+---
+
+## Get in touch
+
+Email: [YOUR-EMAIL@qmul.ac.uk](mailto:YOUR-EMAIL@qmul.ac.uk)
+
+School of Biological and Behavioural Sciences\
+Queen Mary University of London\
+Mile End Road, London E1 4NS
+
+## Join the lab
+
+We welcome people from all backgrounds who are curious about bees, behaviour and the natural world. Experience with fieldwork, coding or museum collections is helpful but not required for every role.
+
+### Open positions
+
+<!-- List advertised PhD projects and postdocs here, with deadlines and links. -->
+There are no advertised positions at the moment.
+
+### PhD students
+
+We support applications through doctoral training programmes and fellowships. If you'd like to discuss a project, email a short note about your interests and a CV.
+
+### Undergraduate and MSc students
+
+QMUL students can carry out dissertation and research projects in the lab, from field-based work on ground-nesting bees to computational work on specimen images.
+
+### Postdoctoral researchers
+
+We're happy to support fellowship applications that fit the lab's research. Please get in touch well ahead of the deadline.

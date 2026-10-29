@@ -1,0 +1,51 @@
+---
+title: "Research"
+description: "Thermal physiology, behaviour and macroecology of wild bees"
+---
+
+We work on wild bees at two very different scales. In the field, we measure how individual bees experience and respond to heat. In collections, we use specimens and images to track how bee traits vary across space and time. Both lead back to the same question: how will wild bees fare as the climate warms?
+
+## In the field {#field}
+
+Most bee species nest in the ground, and their lives are shaped by temperature at every stage, from the soil around the nest to the air they forage in. We study their thermal physiology and behaviour directly in the field.
+
+Questions we are asking:
+
+- How close do bees live to their thermal limits, and how does this differ among species and sites?
+- How do bees change when and how they forage during heatwaves?
+- What makes a suitable nesting site, and how might that change as soils warm and dry?
+
+Our methods include field thermal tolerance assays, behavioural observation, microclimate logging and remote sensing.
+
+<!-- Example photo row. Remove the comment markers and point to your own images:
+::: {layout-ncol=3}
+![Species, location](images/field-1.jpg)
+
+![Species, location](images/field-2.jpg)
+
+![Species, location](images/field-3.jpg)
+:::
+-->
+
+## In the collections {#collections}
+
+Natural history collections hold millions of bee specimens, and digitisation is turning them into images that can be analysed at scale. We develop computational pipelines to extract morphological traits from these images and link them to climate.
+
+Questions we are asking:
+
+- How have bee body size and shape varied alongside recent climate change?
+- How reliably can deep learning measure traits from specimen images, and where does it fail?
+- What can wing and body shape tell us about bee function and ecology?
+
+Our methods include geometric morphometrics, deep learning for trait extraction, and open biodiversity data from GBIF and digitised museum collections.
+
+<!-- Videos work too, e.g.:
+{{< video images/clip.mp4 >}}
+-->
+
+## Funding
+
+<!-- List funders and grants, e.g. "BBSRC New Investigator Award (BB/XXXXX/1)". Funder logos can go in images/. -->
+Our research is supported by:
+
+- Funder and grant reference

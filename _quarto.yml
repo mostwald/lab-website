@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: _site
+  # The home page video and still frame are linked from raw HTML,
+  # so Quarto needs to be told to copy them.
+  resources:
+    - "images/hero*"
+  # Uncomment once you have a custom domain and a CNAME file in this folder:
+  #   - CNAME
+
+website:
+  title: "Ostwald Lab"
+  description: "Behaviour and social ecology in a warming world. Wild bee research at Queen Mary University of London."
+  site-url: "https://YOUR-GITHUB-USERNAME.github.io/lab-website"
+  favicon: images/favicon.svg
+  open-graph: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: people.qmd
+        text: People
+      - href: publications.qmd
+        text: Publications
+      - href: contact.qmd
+        text: Contact
+    right:
+      - icon: github
+        href: https://github.com/YOUR-GITHUB-USERNAME
+        aria-label: GitHub
+  page-footer:
+    left: "Ostwald Lab, Centre for Biodiversity and Sustainability, Queen Mary University of London"
+    right:
+      - text: Contact
+        href: contact.qmd
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles/light.scss]
+      dark: [cosmo, styles/dark.scss]
+    css: styles/site.css
+    toc: false
+    link-external-newwindow: true
+
+execute:
+  freeze: auto

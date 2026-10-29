@@ -1,0 +1,97 @@
+/* Thermal strip under the navbar */
+.navbar {
+  border-bottom: 4px solid transparent;
+  border-image: var(--lab-thermal) 1;
+}
+
+/* Home page: full-width video hero */
+.hero {
+  position: relative;
+  min-height: min(78vh, 720px);
+  margin-top: -1rem;
+  margin-bottom: 2.5rem;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  /* Shown until the video or still frame loads */
+  background: linear-gradient(135deg, #1E0B3B 0%, #5A1D7A 55%, #B23A6F 100%);
+  color: #FFFFFF;
+}
+.hero-media {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(10, 6, 18, 0.72) 0%, rgba(10, 6, 18, 0.2) 45%, rgba(10, 6, 18, 0) 70%);
+}
+.hero-text {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 clamp(1.25rem, 5vw, 3rem) clamp(2.5rem, 7vh, 4.5rem);
+}
+.hero-eyebrow {
+  font-family: "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  margin: 0 0 0.75rem;
+  opacity: 0.9;
+}
+.hero h1.hero-title {
+  color: #FFFFFF;
+  font-size: clamp(2.2rem, 5.5vw, 4rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  max-width: 18ch;
+  margin: 0;
+  border-bottom: none;
+}
+.hero-caption {
+  position: absolute;
+  right: clamp(1rem, 3vw, 2rem);
+  bottom: 0.75rem;
+  margin: 0;
+  font-size: 0.8rem;
+  font-style: italic;
+  opacity: 0.85;
+}
+.hero-toggle {
+  position: absolute;
+  top: 1rem;
+  right: clamp(1rem, 3vw, 2rem);
+  padding: 0.3rem 0.8rem;
+  font-size: 0.8rem;
+  color: #FFFFFF;
+  background: rgba(10, 6, 18, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 999px;
+  cursor: pointer;
+}
+.hero-toggle:hover { background: rgba(10, 6, 18, 0.7); }
+
+/* People grid: consistent square portraits */
+.quarto-grid-item .card-img-top img,
+.quarto-grid-item img.thumbnail-image {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+/* Readable line lengths for long prose pages */
+main.content > p,
+main.content > ul,
+main.content > ol {
+  max-width: 42rem;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--lab-hot);
+  outline-offset: 2px;
+}

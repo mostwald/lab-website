@@ -1,0 +1,5 @@
+---
+title: "Page not found"
+---
+
+This page doesn't exist or has moved. Go to the [home page](index.qmd).

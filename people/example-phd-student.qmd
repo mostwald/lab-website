@@ -1,0 +1,15 @@
+---
+title: "Student Name"
+subtitle: "PhD student (2025–)"
+group: "PhD"
+image: ../images/person-placeholder.svg
+about:
+  template: trestles
+  image-shape: round
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:student@qmul.ac.uk
+---
+
+Replace this file with a real profile, or delete it.
