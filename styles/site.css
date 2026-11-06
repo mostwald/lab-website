@@ -1,86 +1,9 @@
+/* ---------- Whole site ---------- */
+
 /* Thermal strip under the navbar */
 .navbar {
   border-bottom: 4px solid transparent;
   border-image: var(--lab-thermal) 1;
-}
-
-/* Home page: full-width video hero */
-.hero {
-  position: relative;
-  min-height: min(78vh, 720px);
-  margin-top: -1rem;
-  margin-bottom: 2.5rem;
-  display: flex;
-  align-items: flex-end;
-  overflow: hidden;
-  /* Shown until the video or still frame loads */
-  background: linear-gradient(135deg, #1E0B3B 0%, #5A1D7A 55%, #B23A6F 100%);
-  color: #FFFFFF;
-}
-.hero-media {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.hero-scrim {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to top, rgba(10, 6, 18, 0.72) 0%, rgba(10, 6, 18, 0.2) 45%, rgba(10, 6, 18, 0) 70%);
-}
-.hero-text {
-  position: relative;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 clamp(1.25rem, 5vw, 3rem) clamp(2.5rem, 7vh, 4.5rem);
-}
-.hero-eyebrow {
-  font-family: "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
-  font-size: 0.95rem;
-  letter-spacing: 0.04em;
-  margin: 0 0 0.75rem;
-  opacity: 0.9;
-}
-.hero h1.hero-title {
-  color: #FFFFFF;
-  font-size: clamp(2.2rem, 5.5vw, 4rem);
-  line-height: 1.05;
-  letter-spacing: -0.02em;
-  font-weight: 700;
-  max-width: 18ch;
-  margin: 0;
-  border-bottom: none;
-}
-.hero-caption {
-  position: absolute;
-  right: clamp(1rem, 3vw, 2rem);
-  bottom: 0.75rem;
-  margin: 0;
-  font-size: 0.8rem;
-  font-style: italic;
-  opacity: 0.85;
-}
-.hero-toggle {
-  position: absolute;
-  top: 1rem;
-  right: clamp(1rem, 3vw, 2rem);
-  padding: 0.3rem 0.8rem;
-  font-size: 0.8rem;
-  color: #FFFFFF;
-  background: rgba(10, 6, 18, 0.45);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 999px;
-  cursor: pointer;
-}
-.hero-toggle:hover { background: rgba(10, 6, 18, 0.7); }
-
-/* People grid: consistent square portraits */
-.quarto-grid-item .card-img-top img,
-.quarto-grid-item img.thumbnail-image {
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
 }
 
 /* Readable line lengths for long prose pages */
@@ -96,29 +19,88 @@ button:focus-visible {
   outline-offset: 2px;
 }
 
-/* Research page: photo beside each section */
+/* ---------- Home page: short full-width banner, title below ---------- */
+
+.banner {
+  position: relative;
+  margin: -1rem 0 0;
+  height: clamp(190px, 28vw, 360px);
+  overflow: hidden;
+  background: #2A2320;
+}
+.banner video {
+  position: absolute !important;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  object-fit: cover;
+}
+/* Fades the bottom of the video into the page background */
+.banner-fade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom,
+    rgba(0, 0, 0, 0) 45%,
+    var(--bs-body-bg, #FCFCFA) 100%);
+  pointer-events: none;
+}
+.banner-caption,
+.banner-toggle {
+  position: absolute;
+  top: 0.75rem;
+  padding: 0.15rem 0.65rem;
+  font-size: 0.78rem;
+  color: #FFFFFF;
+  background: rgba(10, 6, 18, 0.55);
+  border: none;
+  border-radius: 999px;
+}
+.banner-caption { left: 1rem; font-style: italic; }
+.banner-toggle { right: 1rem; cursor: pointer; }
+.banner-toggle:hover { background: rgba(10, 6, 18, 0.8); }
+.lab-title {
+  position: relative;
+  z-index: 1;
+  padding: 0.5rem 0 clamp(1rem, 3vw, 2rem);
+}
+.lab-title h1 {
+  font-size: clamp(1.9rem, 4vw, 3rem);
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  font-weight: 600;
+  margin: 0 0 0.75rem;
+  border-bottom: none;
+}
+.lab-name { font-weight: 700; }
+.lab-place {
+  font-size: clamp(1.1rem, 1.8vw, 1.35rem);
+  color: var(--lab-muted);
+  margin: 0;
+}
+
+/* ---------- Research page: photo beside each section ---------- */
+
 .research-photo {
   float: right;
   width: min(40%, 22rem);
   margin: 0.3rem 0 1rem 1.75rem;
 }
 .research-photo figure { margin: 0; }
-.research-photo img {
-  width: 100%;
-  height: auto;
-  border-radius: 6px;
-}
-.research-photo figcaption {
-  font-size: 0.85rem;
-  font-style: italic;
-  margin-top: 0.4rem;
-}
+.research-photo img { width: 100%; height: auto; border-radius: 6px; }
+.research-photo figcaption { font-size: 0.85rem; font-style: italic; margin-top: 0.4rem; }
 main.content h2 { clear: both; }
-@media (max-width: 640px) {
-  .research-photo { float: none; width: 100%; margin: 0 0 1.25rem; }
-}
+   .research-photo.left {
+     float: left;
+     margin: 0.3rem 1.75rem 1rem 0;
+   }
+   @media (max-width: 640px) {
+     .research-photo,
+     .research-photo.left { float: none; width: 100%; margin: 0 0 1.25rem; }
+   }
 
-/* People page: photo beside a short bio */
+/* ---------- People page: photo beside a short bio ---------- */
+
 .person {
   display: flex;
   gap: 1.75rem;
@@ -130,7 +112,7 @@ main.content h2 { clear: both; }
   width: 160px;
   height: 160px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 50%;
 }
 .person-text { max-width: 40rem; }
 .person-name { margin: 0.4rem 0 0.15rem; font-size: 1.35rem; border-bottom: none; }
