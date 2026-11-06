@@ -10,7 +10,7 @@ filters:
   - publications.lua
 ---
 
-See also my [Google Scholar profile](https://scholar.google.com/citations?user=fjwJPd4AAAAJ&hl=en).
+For the most updated list, see Madeleine's [Google Scholar profile](https://scholar.google.com/citations?user=fjwJPd4AAAAJ&hl=en).
 
 ::: {#refs}
 :::

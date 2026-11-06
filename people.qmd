@@ -25,4 +25,4 @@ listing:
 ## Lab alumni
 
 <!-- One line per person, most recent first. Copy and edit the example line. -->
-- **Name Surname**, MSc student (2025–2026). Now: role, institution.
+- **Mayu Seguchi**, MSc student (2025–2026): Dissertation: Diel activity of the solitary, ground-nesting bee Eucera longicornis redistributes in response to a record-breaking heatwave in England
