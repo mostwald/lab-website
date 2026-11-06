@@ -1,0 +1,20 @@
+# One entry per article, broadcast or podcast. Copy an entry and edit it.
+# Newest items appear first automatically, sorted by date.
+#   outlet:   the publication or programme
+#   date:     YYYY-MM-DD
+#   title:    the headline
+#   path:     link to the article
+#   image:    optional; put the image in images/media/
+#   linktext: optional; defaults to "Read the article"
+
+- outlet: "Outlet name"
+  date: 2026-10-01
+  title: "Headline of the article goes here"
+  path: https://example.com
+  image: images/media/example.jpg
+
+- outlet: "BBC Radio 4"
+  date: 2026-09-15
+  title: "Example of a broadcast entry, with no image"
+  path: https://example.com
+  linktext: "Listen to the programme"

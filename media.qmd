@@ -1,0 +1,17 @@
+---
+title: "Media"
+description: "Our research in the press"
+listing:
+  id: press
+  contents: media.yml
+  sort: "date desc"
+  date-format: "D MMMM YYYY"
+  template: media.ejs
+---
+
+Read about our research in the press.
+
+**Journalist or broadcaster?** We're always glad to talk about wild bees and climate change, so please [get in touch](contact.qmd).
+
+::: {#press}
+:::

@@ -1,0 +1,14 @@
+<div class="media-grid">
+<% for (const item of items) { %>
+  <article class="media-card">
+    <% if (item.image) { %>
+    <a href="<%- item.path %>" class="media-image" tabindex="-1" aria-hidden="true">
+      <img src="<%- item.image %>" alt="">
+    </a>
+    <% } %>
+    <h3 class="media-outlet"><%= item.outlet %><% if (item.date) { %>, <%= item.date %><% } %></h3>
+    <p class="media-title"><%= item.title %></p>
+    <a class="media-link" href="<%- item.path %>"><%= item.linktext || "Read the article" %> →</a>
+  </article>
+<% } %>
+</div>

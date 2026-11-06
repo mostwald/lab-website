@@ -123,3 +123,31 @@ main.content h2 { clear: both; }
 @media (max-width: 560px) {
   .person { flex-direction: column; gap: 0.75rem; }
 }
+
+
+   /* ---------- Media page: press cards ---------- */
+
+   .media-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+     gap: 2.5rem 2rem;
+     margin-top: 2rem;
+   }
+   .media-image img {
+     display: block;
+     width: 100%;
+     aspect-ratio: 16 / 9;
+     object-fit: cover;
+     border-radius: 8px;
+     margin-bottom: 1rem;
+   }
+   h3.media-outlet {
+     font-size: 1.35rem;
+     margin: 0 0 0.4rem;
+     border-bottom: none;
+   }
+   .media-title {
+     font-size: 1.05rem;
+     margin: 0 0 0.6rem;
+   }
+   .media-link { font-weight: 600; }
