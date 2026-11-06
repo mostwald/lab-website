@@ -7,14 +7,28 @@
 #   image:    optional; put the image in images/media/
 #   linktext: optional; defaults to "Read the article"
 
-- outlet: "Outlet name"
-  date: 2026-10-01
-  title: "Headline of the article goes here"
-  path: https://example.com
-  image: images/media/example.jpg
+- outlet: "Le Monde"
+  date: 2026-04-30
+  title: "Des abeilles caméléons changent de couleur en fonction du taux d’humidité"
+  path: https://www.lemonde.fr/sciences/article/2026/04/30/des-abeilles-cameleons-changent-de-couleur-en-fonction-du-taux-d-humidite_6684553_1650684.html
+  linktext: "Read the article (in French)"
+  image: images/media/sweat-bee-colour1.jpg
+  caption: "Photo: Jeremiah Bender"
 
-- outlet: "BBC Radio 4"
-  date: 2026-09-15
-  title: "Example of a broadcast entry, with no image"
-  path: https://example.com
-  linktext: "Listen to the programme"
+- outlet: "Popular Science"
+  date: 2026-04-23
+  title: "Humidity makes these bees go from blue to green"
+  path: https://www.popsci.com/environment/humidity-makes-bees-change-color/
+  image: images/media/sweat-bee-colour2.jpg
+  caption: "Photo: Jorge De La Cruz"
+  
+- outlet: "Science News"
+  date: 2026-04-21
+  title: "Humidity makes these bees turn green"
+  path: https://www.sciencenews.org/article/humidity-bee-hue-color-change
+
+- outlet: "Bay Nature"
+  date: 2024-09-05
+  title: "Bees are heating up. How will they cope?"
+  path: https://baynature.org/2024/09/05/latest-stories/bees-heat-california-climate-change/
+

@@ -1,28 +1,61 @@
 ---
-title: "People"
-listing:
-  - id: pi
-    contents: "people/*.qmd"
-    include:
-      group: "PI"
-    template: people.ejs
-  - id: phd
-    contents: "people/*.qmd"
-    include:
-      group: "PhD"
-    sort: "title"
-    template: people.ejs
+title: "Our Group"
 ---
 
-::: {#pi}
+<!--
+Each person is one block like the ones below: copy a whole block from ::: {.person} to its closing :::
+Photos go in the images folder; square-ish photos at least 400 pixels wide work best.
+Until you have a photo, keep images/person-placeholder.svg.
+-->
+
+::: {.person}
+::: {.person-photo}
+![](images/madeleine-headshot.jpg){fig-alt="Photo of Madeleine Ostwald" style="object-position: 50% 0%;"}
+:::
+::: {.person-text}
+::: {.person-name}
+Madeleine Ostwald
+:::
+::: {.person-role}
+Principal investigator
+:::
+I am a behavioural ecologist interested in the strategies animals use to cope with environmental pressures, especially by shifting their behaviour or cooperating with others. I have studied bees everywhere from deserts to tropical forests; I now focus on urban species and how cities provide both refuges and challenges for these important pollinators. 
+:::
 :::
 
 ## PhD students
 
-::: {#phd}
+::: {.person}
+::: {.person-photo}
+![](images/person-placeholder.svg){fig-alt="Photo of Matthew Lawrence"}
+:::
+::: {.person-text}
+::: {.person-name}
+Matthew Lawrence
+:::
+::: {.person-role}
+PhD student (2026–)
+:::
+INSERT MATTHEW's BIO
+:::
+:::
+
+::: {.person}
+::: {.person-photo}
+![](images/person-placeholder.svg){fig-alt="Photo of Dexian Wang"}
+:::
+::: {.person-text}
+::: {.person-name}
+Dexian Wang
+:::
+::: {.person-role}
+PhD student (2026–)
+:::
+INSERT DEXIAN'S BIO
+:::
 :::
 
 ## Lab alumni
 
-<!-- One line per person, most recent first. Copy and edit the example line. -->
-- **Mayu Seguchi**, MSc student (2025–2026): Dissertation: Diel activity of the solitary, ground-nesting bee Eucera longicornis redistributes in response to a record-breaking heatwave in England
+<!-- One line per person, most recent first. Copy and edit the line. -->
+- **Mayu Seguchi**, MSc student (2025–2026). Dissertation: Diel activity of the solitary, ground-nesting bee *Eucera longicornis* redistributes in response to a record-breaking heatwave in England.

@@ -1,31 +1,31 @@
 ---
 title: "Research"
-description: "Behaviour, thermal biology and macroecology of wild bees"
+description: "Behaviour, thermal biology, and macroecology of wild bees"
 ---
 
 <!-- Edit the headings and paragraphs freely. Each photo block sits directly under its heading.
      Swap the file names for your own photos in the images folder. -->
 
-## Bees and heat {#heat}
+## Stress and resilience under warming {#heat}
 
 ::: {.research-photo}
-![Caption: species, place](images/research-heat.jpg)
+![](images/research-warming.jpg)
 :::
 
-Wild bees can't generate all the heat they need, or shed all the heat they don't, so temperature shapes almost everything they do. We measure how much heat bees can tolerate and how warm they get in the field, to understand how close different species are living to their limits as summers get hotter and heatwaves more frequent.
+We investigate how wild bees are coping with rising temperatures. We track their responses to real heat stress in the wild to understand how they buffer against extreme heat and how close to their thermal limits they are. We're particularly interested in how bees' nests can be both refuges and heat traps. Ultimately, we aim to use these insights to design more climate-resilient habitat for vulnerable species.
 
-## Behaviour and social life {#behaviour}
+## Macroecology of functional traits {#macroecology}
 
 ::: {.research-photo .left}
-![Caption: species, place](images/research-behaviour.jpg)
+![](images/research-macroecology.jpg)
 :::
 
-Most bee species nest in the ground, some alone and some alongside others. We study how behaviour helps bees cope with a changing climate: when they choose to forage, where they build their nests, and how living together might soften or sharpen the pressures they face.
+Bees vary enormously in size, shape, and colour, and these traits shape how they handle heat, carry pollen, and move through landscapes. Using large image datasets and computational tools such as deep learning, we measure these functional traits across diverse bee species. We use these data to understand how trait diversity allows bees to thrive in diverse climates across the globe.
 
-## Bees in collections {#collections}
+## Ecology of social living {#social}
 
 ::: {.research-photo}
-![Caption: species, collection](images/research-collections.jpg)
+![](images/research-social.jpg)
 :::
 
-Museum collections hold millions of bee specimens, and digitisation is turning them into images we can analyse at scale. Using deep learning and geometric morphometrics, we measure the size and shape of bees across space and time, and ask how their traits have changed alongside the climate.
+Bees are among the most socially diverse animal groups. We are interested in the many bee species that are flexibly social--solitary in some conditions, social in others. We study their behaviour under different environmental conditions to understand how the environment shapes social behaviour, and to predict how climate warming might shift the costs and benefits of social life.
