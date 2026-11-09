@@ -1,10 +1,5 @@
 /* ---------- Whole site ---------- */
 
-/* Thermal strip under the navbar */
-.navbar {
-  border-bottom: 4px solid transparent;
-  border-image: var(--lab-thermal) 1;
-}
 
 /* Readable line lengths for long prose pages */
 main.content > p,
