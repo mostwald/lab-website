@@ -9,20 +9,20 @@ $headings-font-family: "Schibsted Grotesk", "Helvetica Neue", Arial, sans-serif;
 $headings-font-weight: 600;
 $line-height-base: 1.65;
 
-$body-bg: #17141F;
+$body-bg: #141914;
 $body-color: #ECE8E4;
-$primary: #C9A6F2;
-$link-color: #C9A6F2;
-$navbar-bg: #17141F;
+$primary: #8FD49A;
+$link-color: #8FD49A;
+$navbar-bg: #141914;
 $navbar-fg: #ECE8E4;
-$navbar-hl: #C9A6F2;
-$footer-bg: #1F1B29;
+$navbar-hl: #8FD49A;
+$footer-bg: #1B231C;
 $footer-fg: #B7AEB5;
 
 /*-- scss:rules --*/
 :root {
   --lab-muted: #B7AEB5;
-  --lab-surface: #1F1B29;
+  --lab-surface: #1B231C;
   --lab-cool: #9B7BD9;
   --lab-hot: #F08A4B;
   --lab-thermal: linear-gradient(90deg, #3A1A6B 0%, #7A2E9E 25%, #C8487F 50%, #F07A3A 75%, #F6C445 100%);

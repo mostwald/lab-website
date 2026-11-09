@@ -2,9 +2,9 @@
 title: "Contact Us"
 ---
 
-   ::: {.research-photo}
-   ![](images/contact.jpg){fig-alt="field research"}
-   :::
+::: {.research-photo .left .large}
+![](images/contact.jpg){fig-alt="field research"}
+:::
 
 Email: [m.ostwald@qmul.ac.uk](mailto:m.ostwald@qmul.ac.uk)
 

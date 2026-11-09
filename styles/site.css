@@ -217,3 +217,47 @@ main.content h2 { clear: both; }
 .quarto-title-banner .description {
   text-shadow: 0 1px 12px rgba(0, 0, 0, 0.35);
 }
+
+
+/* Larger version of the side photo, e.g. on the Contact page */
+.research-photo.large {
+  width: min(55%, 34rem);
+}
+@media (max-width: 640px) {
+  .research-photo.large { width: 100%; }
+}
+
+
+/* ---------- Home page text box: typographic polish ---------- */
+
+h1.home-title {
+  font-size: clamp(1.9rem, 2.8vw, 2.5rem);
+  font-style: italic;
+  letter-spacing: 0;
+}
+h1.home-title .lab-name {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.5em;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--bs-primary);
+  margin-bottom: 0.9rem;
+}
+
+
+   .home-credit { font-style: normal; }
+   .home-credit::before {
+     content: "";
+     display: block;
+     width: 2.5rem;
+     border-top: 2px solid var(--bs-primary);
+     opacity: 0.6;
+     margin-bottom: 0.6rem;
+   }
+   .home-text p { text-wrap: pretty; }
+   .home-text p:first-of-type { font-size: 1.15rem; }
