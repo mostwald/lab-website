@@ -9,7 +9,7 @@
       <% if (item.caption) { %><figcaption class="media-caption"><%= item.caption %></figcaption><% } %>
     </figure>
     <% } %>
-    <h3 class="media-outlet"><%= item.outlet %><% if (item.date) { %>, <%= item.date %><% } %></h3>
+    <h3 class="media-outlet"><em><%= item.outlet %></em><% if (item.date) { %>, <%= item.date %><% } %></h3>
     <p class="media-title"><%= item.title %></p>
     <a class="media-link" href="<%- item.path %>"><%= item.linktext || "Read the article" %> →</a>
   </article>

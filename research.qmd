@@ -1,6 +1,5 @@
 ---
 title: "Research"
-description: "Behaviour, thermal biology, and macroecology of wild bees"
 ---
 
 <!-- Edit the headings and paragraphs freely. Each photo block sits directly under its heading.
