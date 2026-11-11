@@ -36,7 +36,7 @@ Matthew Lawrence
 ::: {.person-role}
 PhD student (2026–)
 :::
-INSERT MATTHEW's BIO
+ 
 :::
 :::
 

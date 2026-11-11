@@ -30,7 +30,7 @@ listing:
 <h1 class="home-title"><span class="lab-name">Ostwald Wild Bee Lab <img src="images/lab-icon.png" alt="" class="lab-icon" style="height: 1.4em; width: auto;"></span> Behaviour and social ecology in a warming world</h1>
 ```
 
-We study how wild bees respond to a warming climate. Our work combines fieldwork at bee nests with computational work on large image datasets, where we track how bee traits change across space and time.
+We study how wild bees respond to a warming climate. Our work combines fieldwork at bee nests with computational work on large image datasets, where we track how bee traits change across space and through time.
 
 We're based in the Centre for Biodiversity and Sustainability at Queen Mary University of London. [Read more about our research](research.qmd).
 
