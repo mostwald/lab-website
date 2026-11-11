@@ -42,7 +42,7 @@ INSERT MATTHEW's BIO
 
 ::: {.person}
 ::: {.person-photo}
-![](images/person-placeholder.svg){fig-alt="Photo of Dexian Wang"}
+![](images/dexian.jpg){fig-alt="Photo of Dexian Wang"}
 :::
 ::: {.person-text}
 ::: {.person-name}
@@ -51,7 +51,7 @@ Dexian Wang
 ::: {.person-role}
 PhD student (2026–)
 :::
-INSERT DEXIAN'S BIO
+Dexian is interested in how bees respond to global change, particularly across species and scales.
 :::
 :::
 
