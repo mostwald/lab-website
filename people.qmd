@@ -27,7 +27,7 @@ I am a behavioural ecologist interested in the strategies animals use to cope wi
 
 ::: {.person}
 ::: {.person-photo}
-![](images/person-placeholder.svg){fig-alt="Photo of Matthew Lawrence"}
+![](images/matthew.jpg){fig-alt="Photo of Matthew Lawrence"}
 :::
 ::: {.person-text}
 ::: {.person-name}
@@ -36,7 +36,7 @@ Matthew Lawrence
 ::: {.person-role}
 PhD student (2026–)
 :::
- 
+Matthew is interested in the behaviour and ecology of wild bees in response to climate change. Previously, he completed his Zoology BSc (2022) and MSc Biological Sciences by Research (2024) at Royal Holloway, University of London, where he investigated the social dynamics of homing pigeons. He then went onto volunteer at the RSPB Exe Estuary Reserves where he gained experience in the management of grazing marsh habitat to help increase breeding numbers of ground-nesting birds. Following this experience, he worked as a graduate ecologist at an environmental consultancy, where he completed preliminary ecological appraisals and surveys for a range of protected species such as bats, reptiles, and breeding birds, before joining the lab group as a PhD student at Queen Mary University of London under the supervision of Madeleine Ostwald (QMUL), Rachel Parkinson (QMUL), Paul Hurd (QMUL), and Elli Leadbeater (UCL). 
 :::
 :::
 
