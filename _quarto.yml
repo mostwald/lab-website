@@ -34,7 +34,7 @@ website:
         aria-label: GitHub
   page-footer:
     left: "Ostwald Lab, Queen Mary University of London"
-    center: "Banner photos by Penny Frith"
+    center: "Banner photos by Penny Metal"
     right:
       - text: Contact
         href: contact.qmd

@@ -34,7 +34,7 @@ We study how wild bees respond to a warming climate. Our work combines fieldwork
 
 We're based in the Centre for Biodiversity and Sustainability at Queen Mary University of London. [Read more about our research](research.qmd).
 
-[*Eucera longicornis*. Photo: Penny Frith]{.home-credit}
+[*Eucera longicornis*. Photo: Penny Metal]{.home-credit}
 :::
 
 ::::
